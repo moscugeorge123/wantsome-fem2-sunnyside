@@ -1,0 +1,74 @@
+
+
+main {
+    height: 910px;
+    overflow: hidden;
+    background-image: url("../images/Orange.png");
+    background-size: 2000px auto;
+    background-repeat: no-repeat;
+    background-position: top -500px center;
+
+nav{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+
+    a{
+        text-decoration: none;
+        font-family: "Barlow", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        align-self: center;
+    }
+
+button {
+    height: 56px;
+    width: 140px;
+    border-radius: 28px;
+    border: none;
+	cursor: pointer;
+	outline: inherit;
+
+    font-family: "Fraunces", serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+button:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.25);
+    
+
+}
+
+    .menu{
+        width: 450px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+    h1 {
+        font-family: "Fraunces", serif;
+        font-size: 56px;
+        font-weight: 900;
+        letter-spacing: 10px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 150px;
+    }
+
+.logo{
+    padding: 0;
+    margin: 0;
+    width: 170px;
+    align-content: center;
+}
+
+}
